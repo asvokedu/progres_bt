@@ -495,7 +495,7 @@ class SignalDetector:
 
                 # Tentukan parameter trailing berdasarkan jenis order
                 if is_manual:
-                    min_target_profit = 2.0  # Target profit minimal untuk order manual
+                    min_target_profit = 3.0  # Target profit minimal untuk order manual
                     trailing_distance = 1.0  # Jarak trailing untuk order manual
                 else:
                     min_target_profit = self.AUTOBOT_MIN_TARGET_PROFIT
